@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.agnihotrish.mudra.egg"
+    android:background="#ffffffff">
+
+
+
+
+
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="325dp"
+            android:id="@+id/imageButton"
+            android:background="@drawable/androidify"
+            android:onClick="clicked"
+
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Made By Agnihotrish"
+            android:id="@+id/textView"
+            android:textSize="25dp"
+
+            android:layout_above="@+id/imageButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="App Version : 1.5"
+            android:textSize="25dp"
+            android:id="@+id/textView2"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp" />
+    </RelativeLayout>
+
+
+
+

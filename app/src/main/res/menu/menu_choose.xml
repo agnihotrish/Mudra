@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" tools:context="com.agnihotrish.mudra.choose">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:enabled="true"
+        android:visible="true"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="2"
+        android:enabled="true"
+        android:visible="true"
+
+        android:checked="true"
+        android:title="About"/>
+
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="3"
+        android:enabled="true"
+        android:visible="true"
+        android:checked="true"
+        android:title="Exit"/>
+
+
+
+
+</menu>

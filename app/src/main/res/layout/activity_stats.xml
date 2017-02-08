@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    android:gravity="center">
+
+    <TableRow android:weightSum="1">
+    <TextView
+        android:text="STATISTICS"
+        android:id="@+id/stats"
+        android:gravity="center"
+        android:padding="3dip"
+
+        android:layout_span="4"
+        android:textSize="38dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center" />
+    </TableRow>
+
+    <TableRow android:weightSum="1">
+    <TextView
+
+        android:gravity="center"
+        android:padding="3dip"/>
+    </TableRow>
+
+    <TableRow android:weightSum="1">
+    <TextView
+
+        android:gravity="center"
+        android:padding="3dip"/>
+    </TableRow>
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="MODE"
+            android:textSize="28dp"
+            android:id="@+id/mode"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:text="MATCHES"
+            android:textSize="28dp"
+            android:id="@+id/matches"
+            android:padding="3dip"/>
+        <TextView
+            android:text="WON"
+            android:textSize="28dp"
+            android:id="@+id/won"
+            android:padding="3dip"/>
+
+        <TextView
+            android:text="LOST"
+            android:textSize="28dp"
+            android:id="@+id/lost"
+            android:padding="3dip"/>
+
+    </TableRow>
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="EASY"
+            android:textSize="25dp"
+            android:id="@+id/easy"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/em"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/ew"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:id="@+id/el"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+    </TableRow>
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="MEDIUM"
+            android:textSize="25dp"
+            android:id="@+id/medium"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/mm"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/mw"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:id="@+id/ml"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+    </TableRow>
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="DIFFICULT"
+            android:textSize="25dp"
+            android:id="@+id/difficult"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/dm"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/dw"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:id="@+id/dl"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+    </TableRow>
+
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="__________"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:text="_______"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:text="______"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:text="_____"
+            android:gravity="center"
+            android:padding="3dip"/>
+    </TableRow>
+
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+            android:text="TOTAL"
+            android:textSize="25dp"
+            android:id="@+id/total"
+            android:gravity="center"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/totm"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+        <TextView
+            android:id="@+id/totw"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:id="@+id/totl"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+    </TableRow>
+
+
+    <TableRow android:weightSum="1">
+        <TextView
+
+            android:gravity="center"
+            android:padding="3dip"/>
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+
+    <TableRow android:weightSum="1">
+
+        <TextView
+
+            android:text="Swipe down to RESET"
+            android:id="@+id/resettxt"
+            android:gravity="fill_horizontal"
+            android:layout_span="4"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textColor="#ffffd8b3" />
+    </TableRow>
+
+
+</TableLayout>
+
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
